@@ -30,12 +30,12 @@ class RealSubject implements Subject{
  * @author LIn
  *
  */
-class Proxy implements Subject{
+class SProxy implements Subject{
 
 	RealSubject realSubject;
 	
 	//Î¯ÍÐ´úÀí
-	public Proxy(RealSubject realSubject) {
+	public SProxy(RealSubject realSubject) {
 		this.realSubject = realSubject;
 	}
 	
